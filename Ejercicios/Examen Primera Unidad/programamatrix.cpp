@@ -121,7 +121,7 @@ int main() {
         cout << endl;
         cout << "acceso a la matrix denegado";
         cout << endl;
-    }
+    } 
 
  
     return 0;
