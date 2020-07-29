@@ -6,7 +6,7 @@
  }
 
 string nombrecompleto(){
-
+    
     string nombre ="Juan";
 
     string apellido="Perez";
