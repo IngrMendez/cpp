@@ -7,10 +7,41 @@ int sumar(int a, int b)
 return a + b; 
 }
 
+int restar(int a, int b)
+{
+return a - b; 
+}
+
+int multiplicar(int a, int b)
+{
+return a * b; 
+}
+
+int dividir(int a, int b)
+{
+return a / b; 
+}
+
+
 int calculadora(int a, int b, char operador)
 {
-if (operador == '+') {
-return sumar(a,b);
+
+switch (operador)
+{
+case  '+':
+  return sumar( a, b);
+  break;
+  case  '-':
+  return restar( a, b);
+  break;
+  case  '*':
+  return multiplicar( a, b);
+  break;
+  case  '/':
+  return dividir( a, b);
+  break;
+default:
+  break;
 }
 throw "El operador no existe";
 }
