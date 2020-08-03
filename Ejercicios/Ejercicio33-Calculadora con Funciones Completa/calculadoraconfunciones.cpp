@@ -19,6 +19,10 @@ return a * b;
 
 int dividir(int a, int b)
 {
+  if (b == 0){
+
+    throw "No se puede dividir entre cero";
+  }
 return a / b; 
 }
 
