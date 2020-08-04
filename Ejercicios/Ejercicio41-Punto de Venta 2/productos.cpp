@@ -35,4 +35,5 @@ void productos(int opcion)
 	default:
 		break;
        }
-	}
+
+    }

@@ -21,6 +21,7 @@ void menu ()
 		cout << "1 - Bebidas calientes" << endl;
 		cout << "2 - Bebidas frias" << endl;
 		cout << "3 - Reposteria" << endl;
+		cout << "4 - Imprimir factura" << endl;
 		cout << "0 - Salir" << endl;
 		
 		cin >> opcion;
