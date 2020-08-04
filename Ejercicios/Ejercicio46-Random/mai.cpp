@@ -1,24 +1,25 @@
 #include <iostream>
-#include<stdlib.h>
-#include<time.h>
+#include <stdlib.h>
+#include <time.h>
 
 using namespace std;
 
 int main(int argc, char const *argv[])
 {
-   int numero = 0;
+    int numero = 0;
 
-   // inicialice el numero Random
+    // inicializa el numero random
+    srand(time(NULL));
    srand(time(NULL)); 
+    srand(time(NULL));
 
-   for (int i = 0; i < 20; i++)
-   {
-     //genere un numero entre 1 y 10
-   numero = rand() % 5 + 1;
-   cout << " Numero al azar: " << numero;  
-   }
-   
-   
+    for (int i = 0; i < 20; i++)
+    {
+        // genera un numero entre 1 y 10
+        numero = rand() % 5 + 1;
+        cout << "Numero al azar: " << numero << endl;
+    }
+
     return 0;
 }
 
