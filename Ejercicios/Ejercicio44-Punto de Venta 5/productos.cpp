@@ -61,7 +61,7 @@ void productos(int opcion)
         cout << "*************" << endl;
         cout << "1 - Granita de Cafe" << endl;
         cout << "2 - Granita de Naranja" << endl;
-        cout << "3 - Granita de Mora" << endl;
+        cout << "3 1- Granita de Mora" << endl;
         cout << endl;
          
          cout << "Ingrese una opcion:";
