@@ -18,8 +18,6 @@ int main(int argc, char const *argv[])
         {0, 0, 0, 0, 0}
     };
     int sumarArreglo =0;
-    
-
 
     srand(time(NULL));
     for (int i = 0; i < fila; i++)
